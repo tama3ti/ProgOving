@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Diagnosable {
+public interface Diagnosable {
+    void setDiagnosis(String Diagnosis);
 }
