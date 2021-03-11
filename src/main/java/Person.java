@@ -9,6 +9,10 @@ public abstract class Person {
         this.socialSecurityNumber = socialSecurityNumber;
     }
 
+    /**
+     Get and set methods for this abstract class
+     **/
+
     public String getFirstName() {
         return firstName;
     }

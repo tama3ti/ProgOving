@@ -3,8 +3,8 @@ import java.util.List;
 
 public class Department {
     private String departmentName;
-    static List<Employee> employees = new ArrayList<>();
-    static List<Patient> patients = new ArrayList<>();
+    private List<Employee> employees = new ArrayList<>();
+    private List<Patient> patients = new ArrayList<>();
 
     public Department(String departmentName){
         this.departmentName = departmentName;
@@ -44,7 +44,7 @@ public class Department {
      if not throws an exception.
      **/
 
-    public static void remove(Person person) throws RemoveException {
+    public void remove(Person person) throws RemoveException {
         if (patients.contains(person))
             patients.remove(person);
 

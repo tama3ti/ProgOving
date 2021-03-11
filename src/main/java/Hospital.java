@@ -5,9 +5,14 @@ public class Hospital {
     private String hospitalName;
     List<Department> departments = new ArrayList<>();
 
+
     public Hospital(String hospitalName){
         this.hospitalName = hospitalName;
     }
+
+    /**
+     Get and set methods
+     **/
 
     public String getHospitalName() {
         return hospitalName;
